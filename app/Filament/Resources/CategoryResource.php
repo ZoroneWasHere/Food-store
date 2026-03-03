@@ -31,7 +31,7 @@ class CategoryResource extends Resource
     return $form
         ->schema([
             //card
-            Forms\Components\Card::make()
+            Forms\Components\Section::make()
             ->schema([
 
                 //image

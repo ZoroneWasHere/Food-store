@@ -32,7 +32,7 @@ class SliderResource extends Resource
     ->schema([
 
         //card
-        Forms\Components\Card::make()
+        Forms\Components\Section::make()
             ->schema([
 
                 //image
