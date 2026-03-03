@@ -4,12 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class District extends Model
 {
     /**
      * fillable
      *
      * @var array
      */
-    protected $fillable = ['image', 'name', 'slug'];
+    protected $fillable = [
+        'name', 'city_id'
+    ];
 }
